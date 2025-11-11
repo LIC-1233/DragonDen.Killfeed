@@ -60,7 +60,7 @@ public static class Settings
         KillfeedColor = cfg.Bind("Killfeed", "Text Color", new Color(0.5f, 1f, 0.5f, 1f),
             new ConfigDescription("Color for killfeed text.", null, new ConfigurationManagerAttributes { Order = ord-- }));
         
-        KillfeedTemplate = cfg.Bind("Killfeed", "Text Template", "{attacker} → {victim} - [{bp}] - [{weapon} - {ammo}] - [{dist}m}",
+        KillfeedTemplate = cfg.Bind("Killfeed", "Text Template", "{attacker} → {victim} - [{bp}] - [{weapon} - {ammo}] - [{dist}m]",
             new ConfigDescription("Tokens: {attacker} {victim} {bp} {weapon} {ammo} {dist}", null, new ConfigurationManagerAttributes { Order = ord-- }));
         
         KillfeedShowFactionIcon = cfg.Bind("Killfeed", "Show Faction Icon", true,
